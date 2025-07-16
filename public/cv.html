@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My CV</title>
+  <link rel="icon" type="image/png" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3GnXLzl8dF4cvta8kkxZs-MkR_YN12s37kQ&s" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      background-color: #0a0f2c;
+      color: white;
+      font-family: 'Poppins', sans-serif;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .cv-container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: rgba(250, 249, 249, 0.078);
+      backdrop-filter: blur(8px);
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(243, 241, 241, 0);
+    }
+
+    .cv-container h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+      color: #6c63ff;
+    }
+
+    .cv-iframe {
+      width: 100%;
+      height: 600px;
+      border: none;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+
+    .download-btn {
+      margin-top: 20px;
+      padding: 12px 30px;
+      background: #6c63ff;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+  <div class="cv-container">
+    <h1>My Resume</h1>
+
+    <!-- Embedded CV (PDF) -->
+    <iframe class="cv-iframe" src="/cv/my-cv.pdf"></iframe>
+
+    <!-- Download button -->
+    <a href="cv/my-cv.pdf" download class="download-btn">Download PDF</a>
+  </div>
+</body>
+</html>

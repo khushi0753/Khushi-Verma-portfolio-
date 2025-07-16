@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="/css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;600&display=swap"
+    rel="stylesheet">
+    <link rel="icon" type="image/png" href="https://cdn5.vectorstock.com/i/1000x1000/69/89/portfolio-icon-vector-2016989.jpg" />
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">MyPortfolio</div>
+    <div class="menu-toggle" id="mobile-menu">☰</div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1 class="intro-line">Hi, I'm</h1>
+        <h3 class="title-line">Khushi Verma</h3>
+        <h2><span id="typed-text"></span><span class="cursor">|</span></h2>
+        <a href="#contact" class="hire-btn">Hire Me</a>
+      </div>
+      <div class="hero-image" data-aos="fade-left">
+        <img src="/image/robot.png" alt="Robot" id="robot" />
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about">
+    <img src="/image/your-photo.jpg" class="profile-pic" alt="Profile" />
+    <div class="about-text">
+      <h2>About Me</h2>
+      <p>Hello! I’m Khushi Verma, a passionate and self-driven Frontend Developer with a strong enthusiasm for designing
+        clean, modern, and responsive web interfaces. I have a solid grasp of core technologies like HTML, CSS,
+        JavaScript, and C programming, along with foundational knowledge of Java. My passion for coding is fueled by a
+        desire to bring creative ideas to life on the web and build seamless digital experiences that truly connect with
+        users.</p>
+
+      <p>Over time, I’ve expanded my technical expertise by exploring and working with modern frameworks and libraries
+        such as React.js, Bootstrap, and Tailwind CSS. These tools allow me to develop dynamic and scalable web
+        applications that look great across all devices. I enjoy the challenge of taking static designs from tools like
+        Figma and transforming them into fully interactive, pixel-perfect user interfaces.</p>
+      <br />
+      <p>I believe that the front-end of a website is more than just its appearance — it's about how users feel when
+        they interact with it. That’s why I place a strong emphasis on user experience (UX), performance optimization,
+        and accessibility in every project I work on. Beyond the technical aspects, I’m a quick learner, a great team
+        player, and someone who always strives to stay updated with the latest trends in the ever-evolving web
+        development world.</p>
+      <br />
+      <p>My mission is to build websites that are not only visually compelling but also intuitive, fast, and meaningful.
+        I’m currently open to exciting opportunities where I can contribute, learn, and grow — all while building
+        amazing digital experiences.
+      </p>
+
+      <a class="download-cv" href="cv.html"target="_blank">Download CV</a>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portfolio" class="portfolio">
+    <h1 data-aos="fade-up">My Projects</h1>
+    <div class="projects" data-aos="zoom-in">
+      <!-- Project 1 -->
+      <div class="project">
+        <h3>Project 1: Zomato Website </h3>
+        <a href="http://127.0.0.1:3000/index.html" target="_blank"
+          style="color: #6c63ff; text-decoration: underline;">View Live Project</a>
+        <p>This is a responsive clone of the popular food delivery and restaurant discovery platform Zomato, built using
+          HTML, CSS, and JavaScript. It replicates the core UI and design elements of Zomato’s homepage, showcasing a
+          clean layout and responsive design.</p>
+        <img src="/image/project1.png.png" alt="Zomato Clone Preview" />
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project">
+        <h3>Project 2: Music Player</h3>
+        <a href="https://khushi0753.github.io/Music-Player/" target="_blank"
+          style="color: #6c63ff; text-decoration: underline;">View Live Project</a>
+        <p>This is a modern and responsive music player built using HTML, CSS, and JavaScript. It includes intuitive
+          controls to play, pause, and switch tracks, along with a dynamic progress bar.</p>
+        <img src="/image/music player.png" alt="Music Player Preview" />
+      </div>
+      <!-- Project 3 -->
+      <div class="project">
+        <h3>Project 3: Image Slider</h3>
+        <a href=" https://khushi0753.github.io/Image-slider/" target="_blank"
+          style="color: #6c63ff; text-decoration: underline;">View Live Project</a>
+        <p>This project is a fully responsive and interactive image slider/carousel made using HTML, CSS, and
+          JavaScript. It allows users to navigate through a collection of images with smooth transitions.</p>
+        <img src="/image/image-slider.png" alt="Image Slider Preview" />
+      </div>
+    </div>
+    <a href="project.html" target="_blank" class="more-btn">More Projects</a>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="skills">
+    <h2>My Skills</h2>
+
+    <div class="skills-category">
+      <h3>Core Skills</h3>
+      <div class="skills-container">
+        <div class="skill-card">C Programming</div>
+        <div class="skill-card">HTML</div>
+        <div class="skill-card">CSS</div>
+        <div class="skill-card">JavaScript</div>
+        <div class="skill-card">Basic Java</div>
+      </div>
+    </div>
+
+    <div class="skills-category">
+      <h3>Frameworks & Libraries</h3>
+      <div class="skills-container">
+        <div class="skill-card">Figma</div>
+        <div class="skill-card">Bootstrap</div>
+      </div>
+    </div>
+
+    <div class="skills-category">
+      <h3>Actively Learning</h3>
+      <div class="skills-container">
+        <div class="skill-card">Generative AI</div>
+        <div class="skill-card">Python</div>
+        <div class="skill-card">React.js</div>
+        <!-- <div class="skill-card">Tailwind CSS</div> -->
+        <div class="skill-card">Advance Java</div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact-section">
+    <div class="contact-form">
+      <form action="mailto:skhushiv0753@gmail.com" method="POST" enctype="text/plain" class="contact-form">
+        <input type="text" placeholder="First Name" required />
+        <input type="text" placeholder="Last Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message"></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+
+    <div class="contact-info">
+      <h2>Get in Touch</h2>
+      <p>I'd love to connect with you! Feel free to reach out via email or through my social media platforms.</p>
+      <p><strong>Email:</strong><br><a href="mailto:your.email@example.com">skhushiv0753@gmail.com</a></p>
+      <p><strong>Phone:</strong><br><a href="">Available soon</a></p>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/khushi-verma-818023322" target="_blank">
+          <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
+        </a>
+        <a href="https://github.com/khushi0753" target="_blank">
+          <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub">
+        </a>
+        <a href="https://x.com/Khushiverma753" target="_blank">
+          <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter">
+        </a>
+        <a href="https://www.instagram.com/_sk_753?igsh=MWZzZHVkd2Q4bjJjNw==" target="_blank">
+          <img
+            src="https://images.rawpixel.com/image_png_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjk4Mi1kMi0wNC5wbmc.png"
+            alt="Twitter">
+        </a>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- Technologies -->
+  <section class="technologies">
+    <h2>Technologies I Use</h2>
+    <p>Here are some of the technologies and tools I frequently work with:</p>
+    <br />
+    <div class="tech-icons">
+      <img src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png" alt="HTML" />
+      <img src="/image/css.png" alt="CSS" />
+      <img src="/image/js.png" alt="JavaScript" />
+      <img src="/image/react.png" alt="React" />
+      <img src="/image/figma.png" alt="Figma" />
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Khushi Verma. All rights reserved.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+
+    const toggleMenu = document.getElementById("mobile-menu");
+    const navLinks = document.getElementById("nav-links");
+
+    toggleMenu.addEventListener("click", () => {
+      navLinks.classList.toggle("active");
+    });
+
+    const typedText = document.getElementById("typed-text");
+    const roles = ["Frontend Developer", "Innovator", "Web Enthusiast"];
+    let roleIndex = 0;
+    let charIndex = 0;
+    let isDeleting = false;
+
+    function type() {
+      const currentRole = roles[roleIndex];
+      typedText.textContent = currentRole.substring(0, charIndex);
+
+      if (!isDeleting) {
+        charIndex++;
+        if (charIndex > currentRole.length) {
+          isDeleting = true;
+          setTimeout(type, 1500);
+          return;
+        }
+      } else {
+        charIndex--;
+        if (charIndex === 0) {
+          isDeleting = false;
+          roleIndex = (roleIndex + 1) % roles.length;
+        }
+      }
+      setTimeout(type, isDeleting ? 50 : 100);
+    }
+
+    document.addEventListener("DOMContentLoaded", type);
+  </script>
+</body>
+
+</html>

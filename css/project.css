@@ -1,0 +1,96 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffeace;
+  color: #3e2c1c;
+  padding: 40px 20px;
+  line-height: 1.6;
+}
+
+h1 {
+  text-align: center;
+  color: #5e3b1d;
+  font-size: 3rem;
+  text-decoration: underline;
+  margin-bottom: 40px;
+}
+
+/* Flex container for horizontal layout */
+.projects {
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+  gap: 30px;
+  justify-content: center;
+}
+
+/* Individual project card */
+.project {
+  background-color: #f3ebda;
+  border-left: 8px solid #a47551;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(1, 0, 0, 5);
+  width: 400px;
+  flex-shrink: 0; /* Prevent cards from shrinking too much */
+  transition: transform 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project:hover {
+  transform: translateY(-14px);
+}
+
+.project h3 {
+  color: #5a3e2b;
+  margin-bottom: 10px;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.project a {
+  font-weight: bold;
+  color: #8b4513;
+  text-decoration: none;
+}
+
+.project a:hover {
+  text-decoration: underline;
+}
+
+.project p {
+  margin: 15px 0;
+  color: #4b3d33;
+  text-align: center;
+  font-size: 0.95rem;
+}
+
+.project img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 2px solid #d6c1ab;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .projects {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project {
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+  }
+}
